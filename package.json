@@ -1,0 +1,47 @@
+{
+  "name": "htmltoelement",
+  "version": "1.0.0",
+  "description": "Converts HTML string to HTMLElement object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy10james/HtmlToElement.git"
+  },
+  "keywords": [
+    "HTML",
+    "Convert",
+    "Element",
+    "String",
+    "Literals",
+    "HTMLElement"
+  ],
+  "author": "Andy James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andy10james/HtmlToElement/issues"
+  },
+  "homepage": "https://github.com/andy10james/HtmlToElement#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "jest-expect-message": "1.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[tj]sx?$": "babel-jest"
+    },
+    "setupFilesAfterEnv": [
+      "jest-expect-message"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
