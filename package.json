@@ -1,7 +1,7 @@
 {
   "name": "htmltoelement",
   "version": "1.0.0",
-  "description": "Converts HTML string to HTMLElement object",
+  "description": "Convert HTML string to an HTMLElement object.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
