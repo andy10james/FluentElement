@@ -1,5 +1,17 @@
 A simple library to fluently convert an HTML string to an HTML element. 
 
+## Import
+
+```js
+import { html } from "./node_modules/fluentelement/index.js";
+```
+
+or if you're using WebPack (if you're using create-react-app or angularcli you are):
+
+```js
+import { html } from "fluentelement";
+```
+
 ## Usage
 
 ```js
